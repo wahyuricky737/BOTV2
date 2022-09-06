@@ -11,7 +11,9 @@ let handler = async (m, { conn }) => {
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
   description: `
-⳹⍣𝐎𝐩𝐞𝐧 𝐉𝐚𝐬𝐚 𝐒𝐞𝐰𝐚 𝐁𝐎𝐓⍣⳼
+⳹⍣
+𝐎𝐩𝐞𝐧 𝐉𝐚𝐬𝐚 𝐒𝐞𝐰𝐚 𝐁𝐎𝐓⍣
+⳼
   
 ╔═══════════════╗
 ║ 〘༺ List Harga༻〙
@@ -20,15 +22,15 @@ let handler = async (m, { conn }) => {
 ╠❥Permanen = 20.000
 ║ 
 ║ 〘༺ List Premium༻〙
-╠❥1 Bulan = 5.000
-╠❥2 Bulan = 10.000
-╠❥Permanen = 15.000
+╠❥1 Minggu = 3.000
+╠❥Permanen = 5.000 *1 Group*
+╠❥Permanen = 10.000 *2 Group*
 ╚═══════════════╝
 Jika Berminat Chatt Owner Dibawah
 
 ☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}✵
 
-*Owner Deffri Gans*
+*Owner Kris Gans*
 `,
   buttonText: 'Harga Sesuai Pasaran',
   listType: 2,
@@ -38,7 +40,7 @@ Jika Berminat Chatt Owner Dibawah
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6289509960601@s.whatsapp.net`
+  businessOwnerJid: `62882007324217@s.whatsapp.net`
   },
   footerText: '',
   }},{})
